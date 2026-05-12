@@ -1,0 +1,22 @@
+.headertitle {
+    font-family: 'Times New Roman', Times, serif;
+    color: red;
+}
+
+.title-page {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: green;
+}
+
+p {
+    font-family: sans-serif;
+}
+
+article {
+    margin: 2px;
+    background-color: rgb(190, 190, 190);
+}
+
+div {
+    list-style: circle;
+}
