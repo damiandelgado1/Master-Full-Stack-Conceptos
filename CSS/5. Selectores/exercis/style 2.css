@@ -1,44 +1,58 @@
-/* Subelement by "p" */
-p > a:first-child {
+/* element's "div" subelement by other div */
+div:nth-child {
 
 }
 
-/* Checkbox element marked by the Form */
-form > input:checked {
+/* select subelement by "p" element */
+p:nth-child {
 
 }
 
-/* Select p last element by Article */
-article > p:last-child {
+/* select "p" staging within a article */
+article:focus-within(p) {
 
 }
 
-/* Select subelement par by a ol element */
-li:nth-child(2n) {
+/* select "h1" and "h3" element */
+h1, h3 {
 
 }
 
-/* Select beforelast li by a ul */
-li:nth-last-child(2) {
+/* select "ol" element properly by body */
+body:focus-within(ol) {
 
 }
 
-/* Select second "a" element within "p" */
-form > a:focus-within(2) {
+/* select element's with id "amarillo" */
+#id["amarillo"] {
 
 }
 
-/* button element is this unique */
-button:only-child {
+/* select "ul" element is of the body */
+body:nth-of-type(ul) {
 
 }
 
-/* span is a first element by a p */
-p > span:first-child {
+/* select "a" element is of the p */
+p:nth-of-type(a) {
 
 }
 
-/* last element by body */
-body:nth-last-child(2) {
-    
+/* select element with id "platano" */
+#id["platano"] {
+
+}
+
+/* all div element is brother a h2 element */
+div + h2 {
+
+}
+
+/* all p element with "paisa" class, descendent's by a ul element */
+ul > p[class="paisa"] {
+
+}
+
+header > h1, h2, h3[class="headertitle"] {
+
 }
