@@ -1,0 +1,44 @@
+/* Subelement by "p" */
+p > a:first-child {
+
+}
+
+/* Checkbox element marked by the Form */
+form > input:checked {
+
+}
+
+/* Select p last element by Article */
+article > p:last-child {
+
+}
+
+/* Select subelement par by a ol element */
+li:nth-child(2n) {
+
+}
+
+/* Select beforelast li by a ul */
+li:nth-last-child(2) {
+
+}
+
+/* Select second "a" element within "p" */
+form > a:focus-within(2) {
+
+}
+
+/* button element is this unique */
+button:only-child {
+
+}
+
+/* span is a first element by a p */
+p > span:first-child {
+
+}
+
+/* last element by body */
+body:nth-last-child(2) {
+    
+}
