@@ -1,3 +1,5 @@
+/* Part 1 */
+
 /* select div element child's by other div */
 div:nth-child(div) {
 
@@ -113,6 +115,9 @@ ul li:nth-last-child(3) {
 
 }
 
+
+/* Part 2 */
+
 /* select p element with green class and is direct child of the div */
 div > p.green {
 
@@ -202,6 +207,9 @@ p > em#Sons, a#Sons {
 .basico a {
 
 }
+
+
+/* Parte 3 */
 
 /* all element within p */
 p * {
@@ -300,5 +308,94 @@ p:nth-child(2n) {
 
 /* all a element with blue class within a div element and contain id primero */
 div#primero *a.azul {
-    
+
 }
+
+
+/* Part 4 */
+
+/* all span and div element with holaKtal class */
+*span.holaKtal *div.holaKtal {
+
+}
+
+/* all "li" elements with h3 attribute within of the p is child direct of div */
+div > p li[h3] {
+
+}
+
+/* select three a and five p */
+a:nth-child(3), p:nth-child(5) {
+
+}
+
+/* select h1 is the red class within in the div */
+div h1.rojo {
+
+}
+
+/* all element contained within a p and within div */
+div p * {
+
+}
+
+/* all p element with class center */
+*p.centrado {
+
+}
+
+/* all p element contained in .hola class */
+h1 > p.hola {
+
+}
+
+/* last child of the div */
+div:last-child {
+
+}
+
+/* select three within of the p */
+p > a:nth-of-type(3) {
+
+}
+
+/* select h2 with id name */
+h2#title {
+
+}
+
+/* select second p within a div */
+div p:nth-of-type(2) {
+
+}
+
+/* select p element start to three element */
+p:nth-of-type(n+4) {
+
+}
+
+/* select h1 element is direct child of second element p contained in div */
+div p:nth-of-type(2) > h1 {
+
+}
+
+/* all element with a class Buenas is explorer in a p with id Nombre and is child by the element */
+* > p#Nombre a.Buenas {
+
+}
+
+/* all h1 of the page and the h2 in within of div */
+*h1, div *h2 {
+
+}
+
+/* all div of page is a first of type */
+div:nth-of-type(2n) {
+
+}
+
+/* all h3 element of the page */
+*h3 {
+
+}
+
