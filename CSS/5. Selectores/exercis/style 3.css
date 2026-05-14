@@ -399,3 +399,80 @@ div:nth-of-type(2n) {
 
 }
 
+
+/* Part 5 */
+
+/* all img element within of p element with class Row */
+p.Row *img {
+
+}
+
+/* all ol element within a any element is this within of the div */
+div * > ol {
+
+}
+
+/* all span element, a and div is in the any p */
+p *span *a *div {
+
+}
+
+/* all first child have power class and within of any element of hype class */
+*.hype:first-child(2n) {
+
+}
+
+/* all order list of the page */
+*ol {
+
+}
+
+/* all link within p with class .hola */
+p.hola > *a {
+
+}
+
+/* the second child of p */
+p:nth-child(2) {
+
+}
+
+/* the last child of the second p wihtin div */
+div p:nth-of-type(2) *:last-child {
+
+}
+
+/* the first child and last div */
+div:first-child() *:nth-last-child {
+
+}
+
+/* select the id c-header within of the p, and stay within div */
+div p:nth-of-type(#c-header) {
+
+}
+
+/* all p element */
+*p {
+
+}
+
+/* all image with loco class */
+*img.loco {
+
+}
+
+/* the three child and second link of p */
+p:nth-child(3) a:nth-of-type(2) {
+
+}
+
+/* the last p element */
+p:last-of-type {
+
+}
+
+/* select first and last p */
+p:first-of-type(), p:last-of-type() {
+    
+}
