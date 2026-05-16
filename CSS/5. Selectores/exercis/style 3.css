@@ -1,478 +1,121 @@
 /* Part 1 */
 
-/* select div element child's by other div */
-div:nth-child(div) {
+/* Select div element is a child other div */
+div > *div {
 
 }
 
-/* select last element of a group li elements */
-li:last-of-type, li:last-child {
+/* Select last element a group of the brother element */
+li:last-of-type() + li:last-of-type() {
 
 }
 
-/* select child pars by li element */
-li > *:nth-child(2n) {
+/* Select par child of the li element */
+li:nth-child(2n) {
 
 }
 
-/* select child impars by li element */
-li > *:nth-child(2n+1) {
+/* Select impar child of the li element */
+li:nth-child(2n+1) {
 
 }
 
-/* select p element is a child article element */
-article:nth-of-type(p) {
+/* Select p element is child of the article */
+article:nth-child(p) {
 
 }
 
-/* select p element is a within of article */
+/* Select p element is within of article */
 article p {
 
 }
 
-/* select core name h1 and h3 element */
+/* Select title main core of h1 and h3 */
 h1, h3 {
 
 }
 
-/* select ol element within of body */
+/* Select ol is within of body */
 body ol {
 
 }
 
-/* select ul element is child of the body */
-body:nth-child(ul) {
+/* The ul element is child of body */
+body > ul {
 
 }
 
-/* select a element is child of the p */
-p:nth-of-type(a) {
+/* The a element is child of p */
+p > a {
 
 }
 
-/* div element is a descendent of body */
-body > div {
+/* The div element is descendent of body */
+body div {
 
 }
 
-/* select first child of the body */
-body > *:first-child {
+/* The first child of body */
+body:first-child {
 
 }
 
-/* select last child of the ul element */
-ul > *:last-child {
+/* The last child of ul */
+ul:last-child {
 
 }
 
-/* select first child of the ul element */
-ul > *:first-child {
+/* The first child of ul */
+ul:first-child {
 
 }
 
-/* select li pars of the ul */
-ul li:nth-child(2n), ul li:nth-of-type(2n) {
+/* The li element pars of ul */
+ul li:nth-of-type(2n) {
 
 }
 
-/* select li impars of the ul */
-ul li:nth-child(2n+1), ul li:nth-of-type(2n+1) {
+/* The li element impars of ul */
+ul li:nth-of-type(2n+1) {
 
 }
 
-/* select child element of the ul en three position */
-ul > *:nth-child(3) {
+/* The ul child in 3 position */
+ul:nth-child(3) {
 
 }
 
-/* select a p element with id "platano" */
+/* A parraf with platano ID */
 p#platano {
 
 }
 
-/* a element with red class is always child */
-.red:first-child {
+/* A element with rojo class is first child */
+*:first-child[class="rojo"] {
 
 }
 
-/* select h2 element within a section */
-section:focus-within(h2) {
+/* Select h2 within section */
+section h2 {
 
 }
 
-/* select second child by a section element */
-section > *:nth-child(2) {
+/* Select second child of the section element */
+section:nth-child(2) {
 
 }
 
-/* select pars child by a ol element*/
-ol > *:nth-child(2n) {
+/* Select child pars of ol element */
+ol:nth-child(2n) {
 
 }
 
-/* select before-last li of a ul element */
-ul li:nth-last-child(3) {
+/* Select third of last li of a ul with undefined long */
+ul *:last-of-type(3) {
 
 }
 
-
-/* Part 2 */
-
-/* select p element with green class and is direct child of the div */
-div > p.green {
-
-}
-
-/* select a element is a div child and have word grande class atribuite */
-div > a[class="grande"] {
-
-}
-
-/* the button is a child of the section */
-section > button {
-
-}
-
-/* select button is a unique child */
-button:only-child {
-
-}
-
-/* select span is first child of a p */
-p:first-of-type(span) {
-
-}
-
-/* input element is a continous of the label and is child of the section */
-section > label + input {
-
-}
-
-/* button have main a div */
-div > button {
-
-}
-
-/* select a pe-last child of the body */
-body > *:nth-last-child(2) {
-
-}
-
-/* select of label with mascote attribute */
-label[for="mascota"] {
-
-}
-
-/* all img element have a clasec class and is in within div element */
-div img.clasec {
-
-}
-
-/* all link within of the p */
-p a {
-
-}
-
-/* all element has class a "curvado" */
-.Curvado {
-
-}
-
-/* all element a and ol have a "recto" class */
-a.Recto, ol.Recto {
-
-}
-
-/* all a element within of h2 element and within of div element */
-div h2 a {
-
-}
-
-/* all child span within of a p and a div */
-div p span > * {
-
-}
-
-/* all p element and all element with attribute class "aviso" within of the div */
-div > p.aviso, *.aviso {
-
-}
-
-/* "em" element and "a" is direct child of the "p" element with id "Sons" */
-p > em#Sons, a#Sons {
-
-}
-
-/* all a element container in .basico */
-.basico a {
-
-}
-
-
-/* Parte 3 */
-
-/* all element within p */
-p * {
-
-}
-
-/* selector within of a p and within a div */
-div p select {
-
-}
-
-/* select span is a child of the div */
-p > span {
-
-}
-
-/* select a li element within of p and of the h1 */
-h1 p li {
-
-}
-
-/* select all div with class transbox */
-div.transbox {
-
-}
-
-/* all p within h1 */
-h1 > *p {
-
-}
-
-/* all li element */
-*li {
-
-}
-
-/* all p is a child of the h2 */
-h2:nth-child(p) {
-
-}
-
-/* all p within of the a div */
-div *p {
-
-}
-
-/* all a element within of the page */
-*a {
-
-}
-
-/* all element within of the .libreConf class */
-*.libreConf {
-
-}
-
-/* all element p wihin of h2 within of the div */
-div h2 p {
-
-}
-
-/* all p element container in the id test1 */
-*.p#test1 {
-
-}
-
-/* all a is child of the p and is within of the a div */
-div p *a {
-
-}
-
-/* all h1 h2 h3 element wih class .libreConf */
-*h1 h2 h3.libreConf {
-
-}
-
-/* select p element with id parrafo1 */
-p#parrafo1 {
-
-}
-
-/* all child is p with id is child */
-p > *#hijos {
-
-}
-
-/* all p element within of the div */
-div *p {
-
-}
-
-/* all two first p */
-p:nth-child(2n) {
-
-}
-
-/* all a element with blue class within a div element and contain id primero */
-div#primero *a.azul {
-
-}
-
-
-/* Part 4 */
-
-/* all span and div element with holaKtal class */
-*span.holaKtal *div.holaKtal {
-
-}
-
-/* all "li" elements with h3 attribute within of the p is child direct of div */
-div > p li[h3] {
-
-}
-
-/* select three a and five p */
-a:nth-child(3), p:nth-child(5) {
-
-}
-
-/* select h1 is the red class within in the div */
-div h1.rojo {
-
-}
-
-/* all element contained within a p and within div */
-div p * {
-
-}
-
-/* all p element with class center */
-*p.centrado {
-
-}
-
-/* all p element contained in .hola class */
-h1 > p.hola {
-
-}
-
-/* last child of the div */
-div:last-child {
-
-}
-
-/* select three within of the p */
-p > a:nth-of-type(3) {
-
-}
-
-/* select h2 with id name */
-h2#title {
-
-}
-
-/* select second p within a div */
-div p:nth-of-type(2) {
-
-}
-
-/* select p element start to three element */
-p:nth-of-type(n+4) {
-
-}
-
-/* select h1 element is direct child of second element p contained in div */
-div p:nth-of-type(2) > h1 {
-
-}
-
-/* all element with a class Buenas is explorer in a p with id Nombre and is child by the element */
-* > p#Nombre a.Buenas {
-
-}
-
-/* all h1 of the page and the h2 in within of div */
-*h1, div *h2 {
-
-}
-
-/* all div of page is a first of type */
-div:first-of-type {
-
-}
-
-/* all h3 element of the page */
-*h3 {
-
-}
-
-
-/* Part 5 */
-
-/* all img element within of p element with class Row */
-p.Row *img {
-
-}
-
-/* all ol element within a any element is this within of the div */
-div * > ol {
-
-}
-
-/* all span element, a and div is in the any p */
-p *span *a *div {
-
-}
-
-/* all first child have power class and within of any element of hype class */
-*.hype:first-child(2n) {
-
-}
-
-/* all order list of the page */
-*ol {
-
-}
-
-/* all link within p with class .hola */
-p.hola > *a {
-
-}
-
-/* the second child of p */
-p:nth-child(2) {
-
-}
-
-/* the last child of the second p wihtin div */
-div p:nth-of-type(2) *:last-child {
-
-}
-
-/* the first child and last div */
-div:first-child() *:nth-last-child {
-
-}
-
-/* select the id c-header within of the p, and stay within div */
-div p:nth-of-type(#c-header) {
-
-}
-
-/* all p element */
-*p {
-
-}
-
-/* all image with loco class */
-*img.loco {
-
-}
-
-/* the three child and second link of p */
-p:nth-child(3) a:nth-of-type(2) {
-
-}
-
-/* the last p element */
-p:last-of-type {
-
-}
-
-/* select first and last p */
-p:first-of-type(), p:last-of-type() {
-
+/* Select p with green class and direct child div */
+div > p[class="green"] {
+    
 }
