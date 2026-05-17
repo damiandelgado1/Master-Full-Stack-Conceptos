@@ -119,3 +119,91 @@ ul *:last-of-type(3) {
 div > p[class="green"] {
     
 }
+
+
+/* Part 2 */
+
+/* Select a element is child of div and has attribute class with big word */
+div > a[class="grande"] {
+
+}
+
+/* The buttons is child of a section */
+section:nth-child(button) {
+
+}
+
+/* The button is unique child */
+button:only-child() {
+
+}
+
+/* The span is first child of p */
+p > span:first-child(2) {
+
+}
+
+/* The input is continue to label and is child of a section */
+section > label + input {
+
+}
+
+/* The button has as dad a div */
+div > button {
+
+}
+
+/* The third of child by body */
+body *:last-of-type(2) {
+
+}
+
+/* All label with attribute for="mascota" */
+label[for="mascota"] {
+
+}
+
+/* All image element has a class clasec and within of any div element */
+*div img.clasec {
+
+}
+
+/* All links within of parraf */
+p a {
+
+}
+
+/* All element has the Curvado class */
+.Curvado {
+
+}
+
+/* All a and ol element has Recto class */
+*a.Recto, *ol.Recto {
+
+}
+
+/* All a element is within of any h2 is posicionated in any div element */
+*div *h2 a {
+
+}
+
+/* All span child within of p and within a div */
+div p span:nth-child() {
+
+}
+
+/* All p elements and all element with class aviso attribute is within div */
+div p + *.aviso {
+
+}
+
+/* The em and a element is direct child of p element with sons id */
+p#Sons > em, p#Sons a {
+
+}
+
+/* All a element contained in .basic */
+a.basico {
+
+}
