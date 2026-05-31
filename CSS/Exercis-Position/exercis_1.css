@@ -1,0 +1,108 @@
+/* Part 1 */
+section:nth-of-type(1) > div {
+    display: inline-block;
+}
+
+.div1 {
+    background-color: green;
+    height: 200px;
+    width: 200px;
+}
+
+.div2 {
+    background-color: green;
+    height: 200px;
+    width: 200px;
+}
+
+.div3 {
+    background-color: green;
+    height: 200px;
+    width: 200px;
+}
+
+
+/* Part 2 */
+section:nth-of-type(2) > div {
+    display: inline-block;
+}
+
+.div4 {
+    background-color: green;
+    height: 200px;
+    width: 200px;
+}
+
+.div5 {
+    background-color: green;
+    height: 200px;
+    width: 200px;
+}
+
+.div6 {
+    background-color: green;
+    height: 200px;
+    position: relative;
+    top: 204px;
+    width: 200px;
+}
+
+
+/* Part 3 */
+section:nth-of-type(3) > div {
+    display: inline-block;
+    margin-top: 230px;
+}
+
+.div7 {
+    background-color: green;
+    height: 200px;
+    width: 200px;
+}
+
+.div8 {
+    background-color: green;
+    height: 200px;
+    width: 200px;
+    position: relative;
+    top: 210px;
+}
+
+.div9 {
+    background-color: green;
+    height: 200px;
+    width: 200px;
+    position: relative;
+    right: 204px;
+}
+
+
+/* Part 3 */
+section:nth-of-type(4) > div {
+    display: inline-block;
+    margin-top: 230px;
+}
+
+.div10 {
+    background-color: blue;
+    height: 200px;
+    width: 200px;
+    position: relative;
+    left: 1000px;
+}
+
+.div11 {
+    background-color: blue;
+    height: 200px;
+    width: 200px;
+    position: relative;
+    right: 204px;
+}
+
+.div12 {
+    background-color: blue;
+    height: 200px;
+    width: 200px;
+    position: relative;
+    right: 204px;
+}
